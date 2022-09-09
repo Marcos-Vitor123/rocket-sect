@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+header {
+  border: 1px solid red; /* 📚 Para fins de estudos 📚 */
+}
+
+main {
+  border: 1px solid green; /* 📚 Para fins de estudos 📚 */
+}
+
+footer {
+  border: 1px solid blue; /* 📚 Para fins de estudos 📚 */
+}
