@@ -1,15 +1,40 @@
 body {
   margin: 0;
+  width: 1280px;
+  min-height: 100vh;
+  text-align: center;
+
+  background-color: #2C2B3D;
+
+  border: 2px solid orange; /* 📚 Para fins de estudos 📚 */
 }
 
-header {
-  border: 1px solid red; /* 📚 Para fins de estudos 📚 */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1083px;
+  line-height: 30px;
+
+  border: 2px solid red; /* 📚 Para fins de estudos 📚 */
+}
+
+nav ul li {
+  list-style: none;
 }
 
 main {
-  border: 1px solid green; /* 📚 Para fins de estudos 📚 */
+  width: 1092px;
+  height: 283px;
+
+  border: 2px solid green; /* 📚 Para fins de estudos 📚 */
 }
 
 footer {
-  border: 1px solid blue; /* 📚 Para fins de estudos 📚 */
+  width: 568px;
+  line-height: 55px;
+
+  height: 55px; /* 📚 Para fins de estudos 📚 */
+  border: 2px solid blue; /* 📚 Para fins de estudos 📚 */
 }
