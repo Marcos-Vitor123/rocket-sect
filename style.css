@@ -1,40 +1,122 @@
 body {
-  margin: 0;
-  width: 1280px;
-  min-height: 100vh;
-  text-align: center;
-
+  margin-left: 99px;
   background-color: #2C2B3D;
+  margin: 0;
+}
 
+.container {
+  width: 1280px;
+  min-height: 99vh; /* descontando +/- os 4px total ↑↓ das bordas */
   border: 2px solid orange; /* 📚 Para fins de estudos 📚 */
+  margin: 0 auto 23px;
 }
 
 nav {
+  margin: 71px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 101px;
 
-  width: 1083px;
   line-height: 30px;
 
   border: 2px solid red; /* 📚 Para fins de estudos 📚 */
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 82px;
+  margin: 0;
+  padding: 0;
+ 
+  border: 2px solid green; /* 📚 Para fins de estudos 📚 */
+}
+
+nav li a {
+  font-family: 'JetBrains Mono', sans-serif;
+  font-weight: 500;
+  
+  list-style: none;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
 }
 
 nav ul li {
   list-style: none;
 }
 
-main {
-  width: 1092px;
-  height: 283px;
+section {
+  text-align: center;
+  border: 2px solid blueviolet; /* 📚 Para fins de estudos 📚 */
+}
 
-  border: 2px solid green; /* 📚 Para fins de estudos 📚 */
+section h1 {
+  font-family: 'JetBrains Mono', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  line-height: 40px;
+}
+
+section h1 span {
+  /* width: 634px; */
+
+  color: #00BFA6;
+}
+
+section p {
+  /* width: 604px; */
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7D7987;
+  line-height: 28px;
+}
+
+section p span {
+  font-weight: 700;
+  color: #C2C2C2;
+}
+
+section p + p span {
+  color: #00BFA6;
+}
+
+#line {
+  width: 568px;
+  margin: 0 auto;
+  border: 1px solid #00BFA6;
 }
 
 footer {
-  width: 568px;
-  line-height: 55px;
+  font-family: 'JetBrains Mono', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin: 157px auto;
+  
 
-  height: 55px; /* 📚 Para fins de estudos 📚 */
   border: 2px solid blue; /* 📚 Para fins de estudos 📚 */
+}
+
+footer p a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#cadeado {
+  position: fixed;
+  bottom: 20px; 
+  left: 20px;
 }
