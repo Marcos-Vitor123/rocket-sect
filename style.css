@@ -1,14 +1,11 @@
 body {
-  margin-left: 99px;
   background-color: #2C2B3D;
   margin: 0;
 }
 
 .container {
-  width: 1280px;
-  min-height: 99vh; /* descontando +/- os 4px total ↑↓ das bordas */
-  border: 2px solid orange; /* 📚 Para fins de estudos 📚 */
-  margin: 0 auto 23px;
+  width: 1280px; 
+  margin: 0 auto 0;
 }
 
 nav {
@@ -16,11 +13,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 101px;
 
   line-height: 30px;
-
-  border: 2px solid red; /* 📚 Para fins de estudos 📚 */
 }
 
 main {
@@ -29,9 +23,6 @@ main {
   align-items: center;
   gap: 82px;
   margin: 0;
-  padding: 0;
- 
-  border: 2px solid green; /* 📚 Para fins de estudos 📚 */
 }
 
 nav li a {
@@ -56,7 +47,6 @@ nav ul li {
 
 section {
   text-align: center;
-  border: 2px solid blueviolet; /* 📚 Para fins de estudos 📚 */
 }
 
 section h1 {
@@ -65,17 +55,14 @@ section h1 {
   font-size: 36px;
   color: #FFFFFF;
   line-height: 40px;
+  margin-top: 101px;
 }
 
 section h1 span {
-  /* width: 634px; */
-
   color: #00BFA6;
 }
 
 section p {
-  /* width: 604px; */
-
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -94,8 +81,8 @@ section p + p span {
 
 #line {
   width: 568px;
-  margin: 0 auto;
   border: 1px solid #00BFA6;
+  margin: 157px auto 27px;
 }
 
 footer {
@@ -104,10 +91,7 @@ footer {
   font-size: 14px;
   line-height: 28px;
   color: #FFFFFF;
-  margin: 157px auto;
-  
-
-  border: 2px solid blue; /* 📚 Para fins de estudos 📚 */
+  bottom: 23px;
 }
 
 footer p a {
